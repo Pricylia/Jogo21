@@ -48,9 +48,11 @@ export class Deck {
   }
 
   public dealCard = (): Carta => this._deck.pop();
-
+/*
   public getCartasIniciais = (): [Carta, Carta] => [
-    this._deck.pop(),
-    this._deck.pop()
+  //  this._deck.pop(),
+    //this._deck.pop()
   ];
+*/
 }
+
